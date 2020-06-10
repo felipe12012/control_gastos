@@ -16,6 +16,7 @@ const SaldoTotal = ({total}) => {
     }
 
 
+
     return (<div className="container" >
         <div className="col-6">
             <h3>Saldo Ingresado</h3>
@@ -24,7 +25,7 @@ const SaldoTotal = ({total}) => {
         </div>
         <div className="col-6">
         <h3>Gastos</h3>
-            <form>
+            <form >
             <input 
                 type="text" 
                 name="nombre" 
